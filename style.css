@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image (40).jpeg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for header */
+    padding: 20px 0;
+}
+
+main {
+    background-color:cadetblue
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Responsive Design (Optional) */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+}
